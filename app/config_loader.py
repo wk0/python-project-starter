@@ -18,10 +18,11 @@ def config_env():
 
 
 def config_logger(logname=None):
+    filetime = str(datetime.datetime.now()).replace(" ", "_")
+
     if logname:
-        filename = str(Path(f"../logs/{logname}.log"))
+        filename = str(Path(f"../logs/{logname}_{filetime}.log"))
     else:
-        filetime = str(datetime.datetime.now()).replace(" ", "_")
         filename = str(Path(f"../logs/{filetime}.log"))
 
     logging.basicConfig(
