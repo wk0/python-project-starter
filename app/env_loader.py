@@ -1,7 +1,6 @@
 from dotenv import load_dotenv
 
 from pathlib import Path
-import os
 
 
 def load_env():
@@ -11,4 +10,5 @@ def load_env():
 
     # retrieving keys and adding them to the project
     # from the .env file through their key names
+    #
     # SAMPLE_VAR = os.getenv("SAMPLE_VAR")
