@@ -5,4 +5,5 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 
 import app
 
-app.env_loader.load_env()
+app.config_loader.config_env()
+app.config_loader.config_logger()
