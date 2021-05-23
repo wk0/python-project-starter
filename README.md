@@ -25,3 +25,4 @@ pipenv shell
 * pipenv
 * ccxt
 * (jupyter) notebook
+* dotenv
