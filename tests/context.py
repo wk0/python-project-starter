@@ -7,3 +7,6 @@ import app
 
 app.config_loader.config_env()
 app.config_loader.config_logger()
+
+from app import runner
+from app.sample import sample
