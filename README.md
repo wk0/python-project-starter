@@ -26,6 +26,14 @@ Activate shell:
 pipenv shell
 ```
 
+Run tests:
+```
+pytest
+```
+
+
+
+
 ## Tools Used
 * pipenv
 * python-dotenv
@@ -45,5 +53,8 @@ Black formatter setup vscode
 Python-Dotenv
 - https://www.askpython.com/python/python-dotenv-module
 
-Project organization
+Project organization loose ideas
 - https://gist.github.com/ericmjl/27e50331f24db3e8f957d1fe7bbbe510
+
+Pytest examples
+- https://docs.pytest.org/en/6.2.x/example/index.html
